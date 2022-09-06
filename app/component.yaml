@@ -9,4 +9,4 @@ spec:
   application: appstudio
   source:
     git:
-      url: https://github.com/gbenhaim/devfile-sample-go-basic.git
+      url: https://github.com/gbenhaim/devfile-sample-go-basic

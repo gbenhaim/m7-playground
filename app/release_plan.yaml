@@ -1,0 +1,13 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: ReleasePlan
+metadata:
+  labels:
+    release.appstudio.openshift.io/auto-release: 'true'
+  name: sre-production
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
+spec:
+  application: appstudio
+  displayName: SRE Production
+  target:
+    namespace: managed-gbenhaim-app

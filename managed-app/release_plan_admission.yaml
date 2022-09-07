@@ -1,0 +1,10 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: ReleasePlanAdmission
+metadata:
+  name: sre-production
+spec:
+  application: appstudio
+  environment: sre-production
+  origin:
+    namespace: gbenhaim-app
+  releaseStrategy: m7-strategy

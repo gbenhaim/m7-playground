@@ -8,7 +8,7 @@ spec:
   policy: m7-policy
   params:
     - name: extraConfigGitUrl
-      value: https://github.com/ralphbean/strategy-configs.git
+      value: https://github.com/gbenhaim/strategy-configs.git
     - name: extraConfigPath
       value: m7.yaml
     - name: extraConfigRevision # optional field, default is main

@@ -9,4 +9,4 @@ resources:
   - environment.yaml
   - release_plan_admission.yaml
   - appstudio-application.yaml
-  - devfile-sample-go-basic
+  - component.yaml

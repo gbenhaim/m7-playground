@@ -1,0 +1,12 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Component
+metadata:
+  name: devfile-sample-go-basic
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+spec:
+  componentName: devfile-sample-go-basic
+  application: appstudio
+  source:
+    git:
+      url: https://github.com/gbenhaim/devfile-sample-go-basic
